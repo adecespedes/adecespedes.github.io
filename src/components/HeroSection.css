@@ -1,0 +1,39 @@
+.hero-img {
+  background-attachment: fixed;
+  background-position: center top;
+  /* object-fit: cover; */
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.hero-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 4%);
+  object-fit: contain;  
+}
+
+.hero-contain {
+  padding: 130px;
+  width: 42%;
+}
+
+.hero-contain > h1 {
+  color: #fff;
+  font-size: 32px;
+}
+
+.hero-contain > p {
+  color: #fff;
+  font-size: 15px;
+  margin-top: 40px;
+}
+
+.hero-btns {
+  margin-top: 32px;
+}
